@@ -1,0 +1,8 @@
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\SKU_Calculator\bin\Debug\netcoreapp3.1\SKU_Calculator.deps.json
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\SKU_Calculator\bin\Debug\netcoreapp3.1\SKU_Calculator.dll
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\SKU_Calculator\bin\Debug\netcoreapp3.1\SKU_Calculator.pdb
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\SKU_Calculator\obj\Debug\netcoreapp3.1\SKU_Calculator.AssemblyInfoInputs.cache
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\SKU_Calculator\obj\Debug\netcoreapp3.1\SKU_Calculator.AssemblyInfo.cs
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\SKU_Calculator\obj\Debug\netcoreapp3.1\SKU_Calculator.csproj.CoreCompileInputs.cache
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\SKU_Calculator\obj\Debug\netcoreapp3.1\SKU_Calculator.dll
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\SKU_Calculator\obj\Debug\netcoreapp3.1\SKU_Calculator.pdb

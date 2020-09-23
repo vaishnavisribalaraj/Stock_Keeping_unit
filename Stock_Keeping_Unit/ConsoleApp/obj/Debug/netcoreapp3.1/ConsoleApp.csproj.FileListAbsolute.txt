@@ -1,0 +1,13 @@
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csprojAssemblyReference.cache
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
