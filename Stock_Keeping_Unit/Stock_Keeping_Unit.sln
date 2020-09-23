@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKU_Calculator", "SKU_Calculator\SKU_Calculator.csproj", "{F32151AE-482A-42BC-A524-EB283C79B4CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKU_Calculator_Test", "SKU_Calculator_Test\SKU_Calculator_Test.csproj", "{42498578-598B-4947-9E53-AEC436D3E237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F32151AE-482A-42BC-A524-EB283C79B4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F32151AE-482A-42BC-A524-EB283C79B4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F32151AE-482A-42BC-A524-EB283C79B4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42498578-598B-4947-9E53-AEC436D3E237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42498578-598B-4947-9E53-AEC436D3E237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42498578-598B-4947-9E53-AEC436D3E237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42498578-598B-4947-9E53-AEC436D3E237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
