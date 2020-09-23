@@ -26,13 +26,10 @@ namespace ConsoleApp
             price['A'] = 130;
             price['B'] = 2;
             Promotion_Calculator p = new Promotion_Calculator();
-            //getting the promotion rules by calling the method
-            List<Promotion_segregation> rules=p.Promotion_Segregations(PromotionTYpes);
             
-            foreach (var i in rules) {
-                Console.WriteLine(i.Main_SKUID);
-            }
-            //Caaling the method to get the total price of the order
+            
+            
+            //Calling the method to get the total price of the order
             int Total = p.PromotionCalculation(price, PromotionTYpes, Orders);
             Console.WriteLine(Total);
 
