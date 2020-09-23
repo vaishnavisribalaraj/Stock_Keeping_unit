@@ -45,9 +45,13 @@ namespace SKU_Calculator
                     //Calcuating the price if the pattern is not matvhing with any promotions
                     else
                     {
-                        
-                         int price = skuPrice[orders[i].SKUID];
-                          total += price * orders[i].Units;
+                                               
+                        if (j + 1 == promotions.Count)
+                        {
+                            int price = skuPrice[orders[i].SKUID];
+                            total += price * orders[i].Units;
+                        }
+                       
                     }
 
 
