@@ -13,9 +13,14 @@ namespace ConsoleApp
 
             order1.SKUID = 'A';
             order1.Units = 3;
-           //Adding the order object to list of orders
+            Order order2 = new Order();
+
+            order2.SKUID = 'B';
+            order2.Units = 1;
+            //Adding the order object to list of orders
             List<Order> Orders = new List<Order>();
             Orders.Add(order1);
+            Orders.Add(order2);
             //Adding the price details in the dictionary
             Dictionary<char, int> price = new Dictionary<char, int>();
             price['A'] = 130;
