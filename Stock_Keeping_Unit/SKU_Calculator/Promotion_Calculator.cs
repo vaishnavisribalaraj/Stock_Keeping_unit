@@ -8,6 +8,53 @@ namespace SKU_Calculator
     {
         //Instatiation of the class for segregating the promotion engine rule
         Promotion_segregation promotion_Segregation = new Promotion_segregation();
+        //Method for calculating the price
+        public int PromotionCalculation(Dictionary<char, int> skuPrice, List<string> promotionTypes, List<Order> orders)
+        {
+            int total = 0;
+            bool rememberflag = false;
+            string rememberSKUID = "";
+            List<Promotion_segregation> promotions = Promotion_Segregations(promotionTypes);
+            for (int i = 0; i < orders.Count; i++)
+            {
+                for (int j = 0; j < promotions.Count; j++)
+                {
+                    //Checking the ordered SKUID in promotions type  of "no of units of SKUID's for price" pattern
+                    if (orders[i].SKUID == promotions[j].Main_SKUID && promotions[j].Secondary_SKUID == null)
+                    {
+                        if (orders[i].Units == promotions[j].NumberOfUnits)
+                        {
+                            total += promotions[j].Price;
+                            break;
+                        }
+                    }
+
+                    //Checking the ordered SKUID in promotions type  of "SKUID1 & SKUID2 for price" pattern 
+                    else if (orders[i].SKUID == promotions[j].Main_SKUID && promotions[j].Secondary_SKUID != null)
+                    {
+                        rememberflag = true;
+                        rememberSKUID = orders[i].SKUID.ToString();
+                    }
+                    else if (rememberflag && rememberSKUID != "" && orders[i].SKUID == promotions[j].Secondary_SKUID)
+                    {
+                        if (orders[i].Units == promotions[j].NumberOfUnits)
+                        {
+                            total += promotions[j].Price;
+                        }
+                    }
+                    //Calcuating the price if the pattern is not matvhing with any promotions
+                    else
+                    {
+                        
+                         int price = skuPrice[orders[i].SKUID];
+                          total += price * orders[i].Units;
+                    }
+
+
+                }
+            }
+            return total;
+        }
         //creating method for segregating the promotion engine rules
         public List<Promotion_segregation> Promotion_Segregations(List<string> promotionTypes)
         {

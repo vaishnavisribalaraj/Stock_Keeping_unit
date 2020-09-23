@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SKU_Calculator
 {
-    class Order
+    public class Order
     {
         private char sKUID;
         private int units;
