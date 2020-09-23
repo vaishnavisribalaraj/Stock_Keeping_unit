@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "SKU_Calculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SKU_Calculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SKU_Calculator.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SKU_Calculator/1.0.0": {
+      "type": "project",
+      "path": "../SKU_Calculator/SKU_Calculator.csproj",
+      "msbuildProject": "../SKU_Calculator/SKU_Calculator.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "SKU_Calculator >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\tpbalraj\\.nuget\\packages\\": {},
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Maresk\\Stock_Keeping_unit\\Stock_Keeping_Unit\\SKU_Calculator\\SKU_Calculator.csproj": {
+              "projectPath": "F:\\Maresk\\Stock_Keeping_unit\\Stock_Keeping_Unit\\SKU_Calculator\\SKU_Calculator.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

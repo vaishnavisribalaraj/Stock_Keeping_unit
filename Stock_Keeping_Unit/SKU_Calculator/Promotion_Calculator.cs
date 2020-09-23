@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SKU_Calculator
 {
-    class Promotion_Calculator
+    public class Promotion_Calculator
     {
         //Instatiation of the class for segregating the promotion engine rule
         Promotion_segregation promotion_Segregation = new Promotion_segregation();

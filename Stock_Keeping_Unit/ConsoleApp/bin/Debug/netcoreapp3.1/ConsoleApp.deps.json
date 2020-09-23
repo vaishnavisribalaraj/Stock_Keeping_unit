@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "SKU_Calculator": "1.0.0"
+        },
         "runtime": {
           "ConsoleApp.dll": {}
+        }
+      },
+      "SKU_Calculator/1.0.0": {
+        "runtime": {
+          "SKU_Calculator.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SKU_Calculator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

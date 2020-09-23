@@ -11,3 +11,6 @@ F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3
 F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
 F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
 F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\bin\Debug\netcoreapp3.1\SKU_Calculator.dll
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\bin\Debug\netcoreapp3.1\SKU_Calculator.pdb
+F:\Maresk\Stock_Keeping_unit\Stock_Keeping_Unit\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CopyComplete
